@@ -15,15 +15,15 @@ class Imgurx extends Client
     function __construct()
     {
         parent::__construct();
-        $this->authImgur();
+
+        $this->setOption('client_id', config('imgurx.client_id'));
+        $this->setOption('client_secret', config('imgurx.client_secret'));
 
     }
 
 
-    protected function authImgur()
+    public function auth()
     {
-        $this->setOption('client_id', config('imgurx.client_id'));
-        $this->setOption('client_secret', config('imgurx.client_secret'));
 
         if (isset($_SESSION['_imgurx_token'])) {
             $this->setAccessToken($_SESSION['_imgurx_token']);
