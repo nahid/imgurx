@@ -1,7 +1,7 @@
 {
   "name": "nahid/imgurx",
   "description": "Imgurx is a package for laravel to access imgur web service based on Adyg/php-imgur-api-client",
-  "keywords": ["permit", "permission", "role", "authorization", "access", "control"],
+  "keywords": ["imgur", "imgurx", "image-server", "image-host", "php-imgur-api-client"],
   "homepage": "https://github.com/nahid/imgurx",
   "type": "library",
   "license": "Creative Commons",
