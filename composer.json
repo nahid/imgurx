@@ -1,6 +1,6 @@
 {
   "name": "nahid/imgurx",
-  "description": "Permit is a laravel package to make users and user role permission.",
+  "description": "Imgurx is a package for laravel to access imgur web service based on Adyg/php-imgur-api-client",
   "keywords": ["permit", "permission", "role", "authorization", "access", "control"],
   "homepage": "https://github.com/nahid/imgurx",
   "type": "library",
